@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.screen{
+    background-color: rgb(18, 0, 29);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    transform-origin: center;
+    transform: rotateZ(45deg);
+}
+.page{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(27, 190, 255);
+    transform-origin: 100% 100%;
+}
